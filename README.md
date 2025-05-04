@@ -1,7 +1,7 @@
-# RA_RabinKarpSearcher
+# RA Rabin-Karp Search Algorithm PHP Class Package
 This class uses the Rabin-Karp algorithm to find occurrences of a given pattern within a standard text string.
 
-#Searching is available in three modes:
+# Searching is available in three modes:
 
 1. Searching in ASCII text files
 2. Searching in hexadecimal code files
