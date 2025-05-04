@@ -26,6 +26,14 @@ The Rabin-Karp algorithm was introduced in 1987 by Michael O. Rabin and Richard 
 The algorithm's main innovation lies in its use of a "rolling hash." This technique allows the hash value of the next substring of the text to be calculated efficiently, using the hash value of the previous substring, without having to recalculate the entire hash from scratch at each step. This makes the process of comparing hashes across the text very fast.
 
 Although in the worst case (due to hash collisions, where different strings produce the same hash value) the Rabin–Karp algorithm can have a similar time complexity to brute-force search, in practice and with a well-designed hash function, its average performance is much better, which has made it a useful algorithm in various applications, from text search to plagiarism detection and DNA sequence analysis.
+-------------------------------
+# Applications
+
+In critical applications, the RA_RabinKarpSearcher (ASCII) class can be used to detect specific patterns in system or application logs, where rapid identification of textual event sequences (such as critical errors or unauthorized access attempts) is crucial for immediate response. It could also be used in systems monitoring the integrity of configuration text files, alerting to unexpected modifications that could compromise system security or functionality.
+
+The RA_RabinKarpBase16Searcher (Hexadecimal) class is valuable in digital forensics and system security. It can be used to search for specific malware signatures or patterns of malicious activity within memory dumps or binary files represented in hexadecimal. In network-level intrusion detection systems (IDS), it could help identify binary patterns in network traffic that match known attack signatures, enabling early threat mitigation.
+
+The RA_RabinKarpBinarySearcher class is essential for low-level security and firmware analysis. It can be used to search for specific byte sequences that represent known vulnerabilities or backdoors in the binary code of operating systems or embedded devices. In industrial control environments or critical systems where unauthorized modifications at the binary level can have serious consequences, this class enables accurate detection of potentially dangerous alterations.
 
 The documentation explains how to use each type of search and its purpose.
 --------------
