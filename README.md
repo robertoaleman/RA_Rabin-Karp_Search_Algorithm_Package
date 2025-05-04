@@ -7,11 +7,11 @@ This class uses the Rabin-Karp algorithm to find occurrences of a given pattern 
 2. Searching in hexadecimal code files
 3. Searching in binary code files
 
-* The RabinKarpSearcher class serves to locate occurrences of a specific text pattern within a larger body of standard text. You initialize it with the pattern you're looking for, and then you can search any text string for all instances of that pattern. It's useful for tasks like finding words or phrases in documents, basic text analysis, or implementing simple search functionalities within text-based applications.
+* The RA_RabinKarpSearcher class serves to locate occurrences of a specific text pattern within a larger body of standard text. You initialize it with the pattern you're looking for, and then you can search any text string for all instances of that pattern. It's useful for tasks like finding words or phrases in documents, basic text analysis, or implementing simple search functionalities within text-based applications.
 
-* The RabinKarpBase16Searcher class is designed for searching within data that is encoded in hexadecimal format. You provide it with a pattern also in hexadecimal representation, and it will find all occurrences of that byte sequence within a hexadecimal text. This is particularly helpful in scenarios like analyzing binary data represented as hex strings, such as in debugging, reverse engineering, or examining network traffic dumps where data is often viewed in this format.
+* The RA_RabinKarpBase16Searcher class is designed for searching within data that is encoded in hexadecimal format. You provide it with a pattern also in hexadecimal representation, and it will find all occurrences of that byte sequence within a hexadecimal text. This is particularly helpful in scenarios like analyzing binary data represented as hex strings, such as in debugging, reverse engineering, or examining network traffic dumps where data is often viewed in this format.
 
-* Finally, the RabinKarpBinarySearcher class allows you to search for a specific sequence of bytes directly within raw binary data. You provide the pattern as a string of bytes, and it will find all instances of that exact byte sequence within another binary string. This is essential for tasks like analyzing binary files (executables, images, etc.), performing forensic analysis on raw data, or working with low-level data streams where the byte representation is critical.
+* RA_RabinKarpBinarySearcher class allows you to search for a specific sequence of bytes directly within raw binary data. You provide the pattern as a string of bytes, and it will find all instances of that exact byte sequence within another binary string. This is essential for tasks like analyzing binary files (executables, images, etc.), performing forensic analysis on raw data, or working with low-level data streams where the byte representation is critical.
 
 
 ----------------------------
